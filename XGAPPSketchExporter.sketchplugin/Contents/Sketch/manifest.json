@@ -1,0 +1,31 @@
+{
+    "author": "lrdcq",
+    "commands" : [
+        {
+            "name": "Export",
+            "identifier": "com.lrdcq.sketch-commandExport",
+            "shortcut": "ctrl option e",
+            "handler" : "commandExport",
+            "script": "main.js"
+        },
+        {
+            "name": "Setting",
+            "identifier": "com.lrdcq.sketch-commandSetting",
+            "handler" : "commandSetting",
+            "script": "main.js"
+        }
+    ],
+    "menu" : {
+        "items" : [
+            "com.lrdcq.sketch-commandExport",
+            "com.lrdcq.sketch-commandSetting"
+        ],
+        "title" : "XGAPP Resources Exporter"
+    },
+    "identifier": "com.lrdcq.sketch",
+    "homepage": "http://lrdcq.com",
+    "version": "0.1.0",
+    "description" : "Just try.",
+    "authorEmail" : "luoruidong@163.com",
+    "name" : "XGFE APP Sketch Resources Exporter"
+}
